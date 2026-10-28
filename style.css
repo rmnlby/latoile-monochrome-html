@@ -1,0 +1,23 @@
+.hero {
+    background-image: url(bg-image-hero.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;        
+}
+
+.confiance {
+    background-image: url(bg-image-2.png);
+}
+nav {
+    text-align: right;
+    text-align: ;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;   
+}
+
