@@ -1,3 +1,22 @@
+header {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; 
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+
 .hero {
     background-image: url(bg-image-hero.png);
     background-size: cover;
@@ -6,18 +25,72 @@
     padding: 150px;        
 }
 
-.confiance {
-    background-image: url(bg-image-2.png);
-}
-nav {
-    text-align: right;
-    text-align: ;
+/* C'est good */
+
+
+h2{
+    margin-left: 300px;
 }
 
-header {
+.second{
     display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-between;   
+    flex-direction: column;
+    justify-content: center;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Less{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.trois {
+    background-image: url(bg-image-2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    color: white;
+    a{
+        color: white;
+    }
+}
+
+.liendecouvrir {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.paragraphe {
+    margin-left: 300px;
+}
+
+
+/* good en bas */
+.carre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 300px;
+    margin: 30px 60px;
+}
+
+/* good ^ */
+
+footer{
+    text-align: center;
+}
