@@ -87,12 +87,12 @@ section {
 .titre {
     font-weight: bolder;
     display: flex;
-    padding-bottom: 100px;
     font-size: xx-large;
 }
 
+/* Down is done */
+
 .liendecouvrir {
-    
     background-color: lightgray;
     color: black;
     text-decoration: none;
@@ -100,11 +100,14 @@ section {
     border-radius: 5px;
 }
 
-/* Down is done */
+.liensectiontrois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .liendecouvrir:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
 }
 
 .carre {
