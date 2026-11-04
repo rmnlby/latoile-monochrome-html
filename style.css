@@ -26,6 +26,13 @@ nav{
     color: black;
 }
 
+.nav:hover {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+
 .container {
     max-width: 700px;
     margin: auto;
@@ -70,7 +77,7 @@ section {
 }
 
 
-/* ---------------------------------------------------------------------- */
+/* mostly done */
 
 
 .trois {
@@ -78,16 +85,19 @@ section {
     align-items: center;
     background-image: url(bg-image-2.png);
     color: white;
-    padding: 30px;
+    padding: 20px;
     background-position: center;
     background-size: cover;
     margin-top: 10px;
 }
 
-.titre {
-    font-weight: bolder;
+/* Pas hyper satisfait */
+
+.titretrois {
     display: flex;
-    font-size: xx-large;
+    flex-direction: column;
+    font-size: larger;
+    margin-bottom: 50px;
 }
 
 /* Down is done */
