@@ -54,11 +54,6 @@ section {
     min-height: 400px;
 }
 
-.lessismore {
-    display: flex;
-    align-items: center;
-}
-
 .articles {
     display: flex;
     gap: 90px;
