@@ -41,7 +41,7 @@ section {
     min-height: 400px;
 }
 
-.zwz {
+.lessismore {
     display: flex;
     align-items: center;
 }
@@ -51,7 +51,7 @@ section {
     gap: 40px;
 }
 
-.owo {
+.lienless {
     background-color: grey;
     color: white;
     border-radius: 50px;
@@ -59,7 +59,7 @@ section {
     text-decoration: none;
 }
 
-.owo:hover{
+.lienless:hover{
         background-color: black;
 }
 
@@ -136,11 +136,11 @@ footer {
     margin: 0;
 }
 
-.fifou {
+.imgfooter {
     max-width: 70px;
 }
 
-.uwu {
+.pfooter {
     margin: 0;
 }
 
