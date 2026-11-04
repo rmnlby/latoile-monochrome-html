@@ -100,6 +100,11 @@ section {
     margin-left: 400px;
 }
 
+.liendecouvrir:hover {
+    background-color: black;
+    color: white;
+}
+
 .carre {
     display: flex;
     justify-content: space-between;
